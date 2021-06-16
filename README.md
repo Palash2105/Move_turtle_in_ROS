@@ -24,4 +24,5 @@ Just copy turtle_sim  into your catkin_ws/src folder and run the following comma
    where c represent the distance.
    
 The Output looks like:
+
 ![Screenshot](output.png)
