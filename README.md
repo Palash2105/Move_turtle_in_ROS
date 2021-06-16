@@ -7,15 +7,20 @@ Just copy turtle_sim  into your catkin_ws/src folder and run the following comma
 ## Steps to follow
 1. First of all start the ROSMaster node 
 
-#### roscore
+   #### roscore
 
 2. Launch the Turtlesim simulation
 
-#### rosrun  turtlesim turtlesim_node
+   #### rosrun  turtlesim turtlesim_node
 
-3. Run the rosnode on turtlesim 
+3. Run the rosnode on turtlesim to move turtle straight or circular
 
-#### rosrun turtle_sim move_straight.py a b 
-Change a and b by any value. a and b represents the linear and angular velocity given to turtle respectively.
-
+   #### rosrun turtle_sim move_straight.py a b 
+   Change a and b by any value. a and b represents the linear and angular velocity given to turtle respectively. 
+   
+4. To move turtle at particular distance
+   
+   #### rosrun turtle_sim move_to_dist.py a b c
+   where c represent the distance.
+   
 
