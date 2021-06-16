@@ -23,4 +23,5 @@ Just copy turtle_sim  into your catkin_ws/src folder and run the following comma
    #### rosrun turtle_sim move_to_dist.py a b c
    where c represent the distance.
    
-
+The Output looks like:
+![Screenshot](output.png)
