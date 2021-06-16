@@ -4,6 +4,18 @@ This is very beginner level project in ROS. Yet very important to kickstart ROS.
 
 Just copy turtle_sim  into your catkin_ws/src folder and run the following commands into the terminal.
 
+## Steps to follow
 First of all start the ROSMaster node 
+
+### roscore
+
+Launch the Turtlesim simulation
+
+### rosrun  turtlesim turtlesim_node
+
+Run the rosnode on turtlesim 
+
+### rosrun turtle_sim move_straight.py a b 
+Change a and b by any value. a and b represents the linear and angular velocity given to turtle respectively.
 
 
